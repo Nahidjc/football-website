@@ -1,7 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 body {
     font-family: 'Poppins', sans-serif;
 }
 
+* {
+    margin: 0;
+    top: 0;
+}
+
 /* Header Section Styles */
+header {
+    background-color: #2D25A0;
+    height: 677px;
+    width: 100%;
+}
+
+.header-details {
+    padding: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 168px;
+    height: 44px;
+    color: white;
+    background: #E02C6D;
+    border: 1px solid white;
+
+}
+
+.half-width {
+    width: 585px;
+}
+
+.half-width img {
+    width: 556.01px;
+}
+
+.half-width h1 {
+    font-size: 50px;
+}

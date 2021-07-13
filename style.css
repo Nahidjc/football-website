@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -43,4 +43,46 @@ button {
 
 .half-width h1 {
     font-size: 50px;
+}
+
+/* main content styles */
+
+
+main {
+    background-color: white;
+}
+
+.players-info {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+
+
+
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+
+
+}
+
+.player {
+    width: 330px;
+    height: 474px;
+    padding: 10px;
+    box-shadow: 15px 15.34229px 13.3557px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+}
+
+.player img {
+    width: 300px;
+    height: 256px;
+}
+
+.player p {
+    color: #6C6C6C;
 }

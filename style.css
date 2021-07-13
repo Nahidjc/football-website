@@ -25,6 +25,7 @@ header {
 }
 
 button {
+    margin-top: 24px;
     width: 168px;
     height: 44px;
     color: white;
@@ -35,6 +36,7 @@ button {
 
 .half-width {
     width: 585px;
+    margin-left: 30px;
 }
 
 .half-width img {
@@ -53,7 +55,7 @@ main {
 }
 
 .players-info {
-    width: 60%;
+    width: 1050px;
     margin: 0 auto;
     margin-top: 30px;
 
@@ -74,7 +76,7 @@ main {
     width: 330px;
     height: 474px;
     padding: 10px;
-    box-shadow: 15px 15.34229px 13.3557px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 5.34229px 13.3557px rgb(0 0 0 / 5%);
     border-radius: 15px;
 }
 
@@ -83,6 +85,14 @@ main {
     height: 256px;
 }
 
-.player p {
+p {
     color: #6C6C6C;
+    text-align: justify;
+}
+
+.tournamnet {
+    margin: 100px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

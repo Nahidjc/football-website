@@ -10,6 +10,36 @@ body {
 }
 
 /* Header Section Styles */
+
+/* Nav bar style */
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 10px;
+    width: 1160px;
+    height: 44px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Nav bar login Button */
+.button {
+    padding: 8px 15px;
+    color: white;
+    background: #E02C6D;
+}
+
+
 header {
     background-color: #2D25A0;
     height: 677px;
@@ -103,6 +133,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 0px;
+    margin: 30px;
 }
 
 footer img {

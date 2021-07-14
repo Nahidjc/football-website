@@ -65,6 +65,7 @@ button {
     color: white;
     background: #E02C6D;
     border: 1px solid white;
+    cursor: pointer;
 
 }
 

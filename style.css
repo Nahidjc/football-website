@@ -125,7 +125,7 @@ p {
     text-align: justify;
 }
 
-.tournamnet {
+.tournament {
     margin: 100px 10px;
     display: flex;
     align-items: center;
@@ -164,13 +164,30 @@ span i {
 /* Responsive For Mobile */
 
 @media only screen and (max-width: 600px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        max-width: 600px;
+        overflow-x: hidden;
 
+    }
+
+    * {
+        margin: 0;
+        top: 0;
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+    }
+
+    /* 
     header {
         background-color: #2D25A0;
         width: 360px;
         height: 695px;
         overflow: hidden;
-    }
+    } */
 
     .header-details {
         display: grid;
@@ -188,14 +205,27 @@ span i {
         height: 259.17px;
     }
 
+    .players-info {
+        display: flex;
+        align-items: center;
+
+    }
+
     .players {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 30px;
+        width: 350px;
+    }
+
+    .player {
+        width: 320px;
+        place-items: center;
     }
 
 
-    .tournamnet {
+    .tournament {
+        margin-top: 30px;
         display: flex;
         margin: 0;
         flex-direction: column;
@@ -204,7 +234,8 @@ span i {
     }
 
     .half-width h1 {
-        font-size: 30px;
+        margin-top: 20px;
+        font-size: 20px;
     }
 
 
@@ -216,7 +247,8 @@ span i {
     }
 
 
-    .tournamnet .half-width img {
+    .tournament .half-width img {
+
         width: 328px;
         height: 248px;
     }
@@ -267,7 +299,7 @@ span i {
     }
 
 
-    .tournamnet {
+    .tournament {
         display: flex;
         flex-direction: column;
 
